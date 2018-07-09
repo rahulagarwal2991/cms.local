@@ -1,0 +1,6 @@
+assets/
+protected/runtime/
+protected/runtime/*
+.idea/
+protected/vendor/*
+protected/runtime/cron.log
