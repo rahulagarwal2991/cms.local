@@ -33,8 +33,9 @@ class Team extends CActiveRecord {
         // will receive user inputs.
         return [
             ['name, logo_uri', 'required'],
-            ['name', 'length', 'max'=>64],
-            ['logo_uri', 'length', 'max'=>128],
+            ['name', 'length', 'max'=>64,],
+            ['club_state', 'length', 'max'=>100,],
+            ['logo_uri', 'length', 'max'=>128,],
         ];
     }
 
@@ -60,6 +61,7 @@ class Team extends CActiveRecord {
             'team_id' => 'Team Id',
             'name' => 'Name',
             'logo_uri' => 'Logo',
+            'club_state' => 'Club State',
         ];
     }
 
