@@ -1,4 +1,6 @@
 <?php
+error_reporting(E_ERROR);
+ini_set('display_errors', 1);
 define('DS', DIRECTORY_SEPARATOR);
 define('DIR_ROOT', getcwd() . DS);
 //DIR_ROOT . 'protected' . DS . 'vendor' . DS . 'autoload.php'
